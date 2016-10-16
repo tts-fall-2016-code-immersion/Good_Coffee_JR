@@ -1,0 +1,70 @@
+body {
+  font-family: 'Raleway', 'sans-serif';
+  background-color: #A2DED0;
+}
+
+.jumbo {
+    background-image: url("../img/coffee-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -40px;
+    padding: 20%;
+    background-attachment: fixed;
+    background-position: center -238px;
+}
+
+.jumbo h1 {
+	position: absolute;
+	left: 0;
+	margin-top: -10px;
+	padding-left: 20px;
+	color: #F7FAFE;
+}
+
+.mission {
+	background-color: #323232;
+	color: #F7FAFE;
+	margin-top: -30px;
+}
+
+.mission h3 {
+	padding: 5% 10%;
+	text-align: center;
+}
+
+.features {
+	padding: 5% 0;
+}
+
+.features p {
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 10px;
+	color: #323232;
+	font-family: 'Muli', 'sans-serif';
+}
+
+footer {
+	background-color: #D64541;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 2%;
+	float: right;
+}
+
+footer p {
+	float: left;
+	padding: 2%;
+}
+
+footer > p, a {
+	vertical-align: middle;
+	color: #fff !important;
+}
